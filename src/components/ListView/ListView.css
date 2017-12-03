@@ -1,0 +1,41 @@
+.List-view {
+    background-size: auto;
+    background: url('../../images/fundo.png') repeat, no-repeat fixed top left, center center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.bloco-centro {
+    background:url('../../images/overlay.png'),rgba(255,255,255,.6) ;
+    max-width:500px;
+    padding:30px 60px 60px 60px;
+    border-radius: 10px;
+    color:#555;
+    font-family: "Segoe UI", serif;
+    margin: auto;
+}
+
+.ipt {
+    margin-top:50px;
+}
+
+.lista {
+    padding-top:2px;
+    margin-top:10px;
+}
+
+.btns {
+    width:130px;
+    height:60px;
+    border-radius:10px;
+    margin-top:30px;
+    box-shadow:none;
+}
+
+.lista .item {
+    padding:10px;
+    border-radius:5px;
+    background-color:rgba(255, 255, 255, 0.9);
+    margin-top:10px;
+}
